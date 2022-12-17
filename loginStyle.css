@@ -19,11 +19,12 @@
     height: 30px;
     margin-left: 500px;
     padding: 20px;
-    text-align: right;
+    padding-bottom: 30px;
+    text-align: center;
     position: relative;
 }
 
-#form{
+.form{
     border-color: gray;
     border: solid;
     border-radius: 20px;
@@ -50,3 +51,17 @@ label{
     margin-right: auto;
     padding: 10px;
 }
+
+.errorMsg{
+    color: red;
+    font-style: bold;
+    z-index: 2;
+    position:relative;
+    border: solid;
+    border-color: black;
+    background-color: white;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    
+}
+
